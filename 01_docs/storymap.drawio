@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="J7mA_7_qFkK3A9PS9lpF" name="ページ-1">
-        <mxGraphModel dx="3129" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+        <mxGraphModel dx="2559" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -130,8 +130,8 @@
                 <mxCell id="HO8h_rhg2D4HW0FoafM_-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="F.次の学習を決める" vertex="1">
                     <mxGeometry height="60" width="920" x="4040" y="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="HO8h_rhg2D4HW0FoafM_-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アプリを起動しホーム画面を開く" vertex="1">
-                    <mxGeometry height="60" width="120" x="40" y="320" as="geometry"/>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#65FF18;strokeColor=#A0D628;arcSize=18;" value="アプリを起動しホーム画面を開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="310" as="geometry"/>
                 </mxCell>
                 <mxCell id="HO8h_rhg2D4HW0FoafM_-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ログイン情報から個人にダッシュボードを開く" vertex="1">
                     <mxGeometry height="60" width="120" x="40" y="600" as="geometry"/>
