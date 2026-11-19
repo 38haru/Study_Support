@@ -1,0 +1,484 @@
+<mxfile host="65bd71144e">
+    <diagram id="J7mA_7_qFkK3A9PS9lpF" name="ページ-1">
+        <mxGraphModel dx="3129" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;自習支援アプリ&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="30" width="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="教科選択" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="単元選択" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="基礎解説を読む" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="難易度を選択" vertex="1">
+                    <mxGeometry height="60" width="120" x="1000" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="おすすめ学習を見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="問題を表示" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="解答入力" vertex="1">
+                    <mxGeometry height="60" width="120" x="1480" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="正誤確認" vertex="1">
+                    <mxGeometry height="60" width="120" x="1640" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="正解・解説" vertex="1">
+                    <mxGeometry height="60" width="120" x="1800" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ヒントを見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="1960" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="間違えた問題をもう一度解く" vertex="1">
+                    <mxGeometry height="60" width="120" x="2120" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="間違えた問題を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2280" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="間違えた理由を考える" vertex="1">
+                    <mxGeometry height="60" width="120" x="2440" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="わからない部分を振り返る" vertex="1">
+                    <mxGeometry height="60" width="120" x="2600" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="解説の不明な部分を選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2760" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ヒントや説明を貰う" vertex="1">
+                    <mxGeometry height="60" width="120" x="2920" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="学習結果を記録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3080" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="間違えた問題を記録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3240" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="正答率を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3400" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="学習履歴を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3560" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="苦手分野を記録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3720" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="成長を記録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3880" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="現在の学習状況を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4040" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="復習候補を見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="4200" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="提案を見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="4360" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="おすすめ問題を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4520" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="AI学習分析" vertex="1">
+                    <mxGeometry height="60" width="120" x="4680" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="計画を見直す" vertex="1">
+                    <mxGeometry height="60" width="120" x="4840" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-74" edge="1" parent="1" style="shape=link;html=1;width=6;" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <mxPoint x="-440" y="280" as="sourcePoint"/>
+                        <mxPoint x="4969.60009765625" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-76" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-440" y="560" as="sourcePoint"/>
+                        <mxPoint x="4968.7998046875" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="学習画面を開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="学習状況を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="目標を設定する" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="A.学習を始める" vertex="1">
+                    <mxGeometry height="60" width="440" x="40" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="B.教材を選ぶ" vertex="1">
+                    <mxGeometry height="60" width="760" x="520" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="C.問題に取り組む" vertex="1">
+                    <mxGeometry height="60" width="920" x="1320" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="D.つまずきを理解する" vertex="1">
+                    <mxGeometry height="60" width="760" x="2280" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="E.学習結果を振り返る" vertex="1">
+                    <mxGeometry height="60" width="920" x="3080" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="F.次の学習を決める" vertex="1">
+                    <mxGeometry height="60" width="920" x="4040" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アプリを起動しホーム画面を開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ログイン情報から個人にダッシュボードを開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-94" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="40" y="840" as="sourcePoint"/>
+                        <mxPoint x="4968.7998046875" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="総学習時間を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="前回の勉強日を入力する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="苦手単元の一覧と理解度（グラフ/％）を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="過去からの成長の可視化を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="県入試傾向に対する現在の合格可能性やアプローチを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Pad等のタブレット端末（Web）から起動できる&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="目標点数をテキスト入力できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="370" y="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="週ごとの学習目標や「〇〇を克服する」などの目標を設定・更新する" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="リマインド通知を設定して学習のきっかけを作る" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="5教科（国/数/英/理/社）のボタンから教科を選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="教科ごとの最終学習日や達成度（％）をアイコン横に表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="よく勉強する「お気に入り教科」を最上部に固定表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="単元リストから学習したい単元を選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="単元ごとの得意・苦手（理解度メーター）を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;定期テスト範囲や入試出題頻度に合わせたフィルタリングができる&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;要点がまとまったテキスト画面を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;図解や県特有のポイント解説を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;基礎解説から直接AIに用語の簡単な意味を質問できる&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-114" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「基礎」「標準」の2段階から選択する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1000" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「応用」を追加し、過去の正答率に応じた推奨難易度をアイコン表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1000" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="正答率に応じて問題の難易度が自動調整されるモードを選択できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="1000" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-117" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="500" y="1080" as="sourcePoint"/>
+                        <mxPoint x="500" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-118" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;AI/システムが推奨する単元を1つ強調表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;分析データに基づき「なぜこれがおすすめか」と共に提案し生徒が選択できる&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「弱点克服コース」「入試直前コース」など目的別の学習プランを自動生成する&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-121" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="1300" y="1070" as="sourcePoint"/>
+                        <mxPoint x="1300" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="問題文と図表を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-123" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="県入試傾向に合わせた問題を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;iPad等の手書き入力に対応した描画領域を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="選択肢またはテキストで解答を入力する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1480" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="途中式や考え方をメモ書き/記述できる入力欄を用意する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1480" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;数式エディタや記号入力をスムーズにするUIを搭載する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1480" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-128" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="「〇」「×」の判定と正解を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1640" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-129" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「なぜ間違えたと思うか（計算ミス/知識不足/文章読解等）」の理由振り返り選択を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1640" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="類似の記述問題における誤答パターンをAIが自動分析してフィードバックする" vertex="1">
+                    <mxGeometry height="60" width="120" x="1640" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-131" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="標準の解説テキストを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1800" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="解説文の分からない文字を選択すると「ピンポイントAIチャット」が起動し質問できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="1800" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span&gt;AIとの会話履歴を保存し、後からマイページで復習できるようにする&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1800" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="1段階のテキストヒントを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1960" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-135" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="つまずきポイントに応じた2段階（ヒント1・2）を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1960" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-136" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;AIが生徒の入力した途中式を見て「ここまでは合っているよ」と導く&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="1960" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-137" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;間違い問題のみを抽出し再挑戦ボタンを押す&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2120" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-138" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違えた「原因」を意識しながら解き直しを行い、理解度を再判定する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2120" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違えた問題だけを集めた「自分専用・間違いノート（復習ドリル）」を生成する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2110" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-140" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="2260" y="1080" as="sourcePoint"/>
+                        <mxPoint x="2260" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;今回間違えた問題の一覧と正しい答えを表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2280" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="過去の類似問題の間違い履歴も含めてまとめて確認できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="2280" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-144" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「計算ミス」「問題文の読み間違い」「解き方がわからない」などのチェック項目を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2440" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="生徒自身に「なぜ間違えたか」の理由を選択・入力させ、自走力を促す" vertex="1">
+                    <mxGeometry height="60" width="120" x="2440" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="過去の間違い理由の傾向（例: 計算ミスが多い）をグラフで視覚化する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2440" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-149" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;解説文を画面に表示し、テキスト領域を確認する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2760" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-150" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="解説文中の分からないテキスト範囲をマウス操作/タップでハイライト選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="2760" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;テキストだけでなく図やグラフの特定部分を指定して質問できるようにする&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2760" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-152" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;「自分がどこでつまずいたか」を選択項目から1つ選ぶ&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="2600" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;「公式の未定着」「文章からの立式不可」など具体的な弱点ポイントを特定・記録する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="2600" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;AIが「君はいつもここでつまずきやすいよ」と客観的なデータ・傾向を提示する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="2600" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;標準の解説文や定型ヒントを表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2920" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="選択箇所に特化したピンポイントAIチャットが起動し、わかりやすい補足説明を受ける" vertex="1">
+                    <mxGeometry height="60" width="120" x="2920" y="970" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;生徒の質問に対して「答えを直教えせず、段階的な問いかけ」でAIが導く&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="2920" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-158" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="3060" y="1080" as="sourcePoint"/>
+                        <mxPoint x="3060" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-159" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&#xa;今日の勉強完了時に学習時間と解いた問題数を自動保存す&#xa;&#xa;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3080" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-160" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;教科別・単元別の学習時間を細かく自動記録・集計する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3080" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-162" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;学習の中断・再開データをシームレスに同期・記録する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3080" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違えた問題のIDと正解判定をDBに保存する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3240" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違えた理由（計算ミス・知識不足等）も合わせて記録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3240" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-165" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違い傾向（苦手パターン）をタグ付けして自動整理する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3240" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-166" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="今回解いたセッションの正答率（％）を結果画面に表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3400" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-167" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;単元ごとの正答率推移をグラフ表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3400" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-168" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;県模試や入試傾向の合格ラインと自分の正答率を比較表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3400" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-169" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="カレンダーやリスト形式で「いつ勉強したか」を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3560" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-170" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;日/週/月ごとの学習時間・実施内容の推移を確認できる&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3560" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;過去のAIチャットでの質問履歴（ピンポイント解説履歴）を振り返る&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3560" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-172" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;間違えた問題の単元名を「苦手リスト」に保存する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="3720" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="AIが分析した苦手分野・つまずきポイントを客観的データとして提示・更新する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3720" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-174" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;AIが生徒の克服度に合わせて「次回復習すべき優先単元」を提示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3720" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="累計学習時間や総解いた問題数をカウントアップ表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3870" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-176" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="過去と比べた「理解度の変化（〇〇単元が理解度アップ）」を可視化表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="3870" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-177" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span&gt;目標達成度（例：高校入試対策の達成率）をゲージやバッジ等で成長実感として表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="3880" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-178" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="4020" y="1080" as="sourcePoint"/>
+                        <mxPoint x="4020" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-179" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;今日の学習後の到達度（全体進捗％）を表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="4040" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="得意・苦手単元のバランスチャートや達成度を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4040" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;県高校入試までの残り日数と現在の到達レベルを表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="4040" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;正解率が低かった単元の一覧リストを表示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="4200" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;間違い理由に応じた「復習優先単元」を表示する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="4200" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-184" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="過去の苦手単元を自動で「定期復習スケジュール」に組み込む" vertex="1">
+                    <mxGeometry height="60" width="120" x="4200" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-185" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span&gt;「次に勉強すべきおすすめ教科・単元」をテキストで1つ提示する&lt;/span&gt;&lt;span&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="4360" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-186" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="生徒のモチベーションや理解度に応じたマルチシナリオ（標準/集中復習/応用チャレンジ）を提案する   " vertex="1">
+                    <mxGeometry height="60" width="120" x="4360" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AIが「なぜこの単元を復習すべきか」の客観的根拠（理由）を提示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4360" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-188" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="次回取り組むべき基礎問題のタイトル一覧を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4520" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-189" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif;&quot;&gt;弱点にピンポイントで効く県特化の厳選おすすめ問題カードを表示する&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="4520" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="難易度別の類似問題を自動生成し、即座に挑戦できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="4520" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-191" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;解いた問題数や正解数を簡易的に集計・表示する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="4680" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-193" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="「一次関数の立式」「文章読解」など、具体的なつまずき要因を分析・可視化する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4680" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-194" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;AIチャットでの質問傾向（理解に時間がかかった箇所）も含めた総合的な学習スタイル分析を表示する&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   " vertex="1">
+                    <mxGeometry height="60" width="120" x="4680" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-195" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="次回の目標設定画面へ移動するボタンを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4840" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-196" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="提示されたデータをもとに、生徒自身が「次はこれをやる！」と次回学習を選択・確定する" vertex="1">
+                    <mxGeometry height="60" width="120" x="4840" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-197" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="次回学習のリマインド通知設定や、週間スケジュールの自動再生成を行う" vertex="1">
+                    <mxGeometry height="60" width="120" x="4840" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-199" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ウォーキングスケルトン" vertex="1">
+                    <mxGeometry height="80" width="120" x="-560" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-200" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;size=20;" value="コア機能" vertex="1">
+                    <mxGeometry height="80" width="120" x="-80" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-201" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="発展機能" vertex="1">
+                    <mxGeometry height="80" width="120" x="-80" y="940" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="数の単元を１つ作成する。" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="パワーポイントを作って、HTMLに落とす" vertex="1">
+                    <mxGeometry height="60" width="120" x="-280" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="準備" vertex="1">
+                    <mxGeometry height="60" width="440" x="-440" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="問題・解説を作成" vertex="1">
+                    <mxGeometry height="60" width="120" x="-440" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="問題を取り込む" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="HTMLをシステム内に取り込む" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="cODfWZCOnC2dEyZ3zYuy-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="選択問題" vertex="1">
+                    <mxGeometry height="60" width="120" x="-440" y="320" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
