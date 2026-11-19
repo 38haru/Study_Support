@@ -1,0 +1,106 @@
+
+/* 下部メニュー全体 */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: none;
+
+  width: 100%;
+  height: 72px;
+  padding: 0;
+
+  background: #f7f7f7;
+  border: none;
+  border-top: 1px solid #d8d8d8;
+  border-radius: 0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+/* メニュー配置 */
+.bottom-nav-inner {
+  height: 100%;
+  width: min(680px, calc(100% - 180px));
+
+  margin-left: auto;
+  margin-right: max(
+    24px,
+    calc((100% - 900px) / 2)
+  );
+
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.bottom-nav-item {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  padding: 6px 4px;
+  border: none;
+  border-radius: 8px;
+
+  background: transparent;
+  color: #888888;
+
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.bottom-nav-item span {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.bottom-nav-item:hover {
+  background: #eeeeee;
+  color: #496d4d;
+}
+
+.bottom-nav-item.active {
+  background: #e7eee6;
+  color: #496d4d;
+}
+
+.bottom-nav-item.active svg {
+  transform: none;
+}
+
+/* 小さい画面への調整 */
+@media (max-width: 700px) {
+  .bottom-nav {
+    height: 64px;
+  }
+
+  .bottom-nav-inner {
+    width: 100%;
+    margin: 0;
+    padding: 4px 8px;
+  }
+
+  .bottom-nav-item span {
+    font-size: 10px;
+  }
+
+  .bottom-nav-item svg {
+    width: 23px;
+    height: 23px;
+  }
+}
