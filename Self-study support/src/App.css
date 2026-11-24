@@ -1,4 +1,4 @@
-
+/* ページ全体の基本レイアウト */
 html,
 body,
 #root {
@@ -8,5 +8,30 @@ body,
 
 body {
   min-height: 100vh;
-  background-color: #B88D59;
+  /* ページ背景色（調整可能） */
+  background-color: #c7e5e7;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+.study-stage {
+  position: relative;
+  box-sizing: border-box;
+  /* ヘッダー分を除いた最小高さ（調整可能） */
+  min-height: calc(100dvh - 92px);
+  overflow: hidden;
+  /* 背景のドットとグラデーション（調整可能） */
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.52) 0 2px, transparent 2.5px),
+    linear-gradient(135deg, #d9f0f0, #b9dde1);
+  background-size: 28px 28px, auto;
+}
+
+@media (max-width: 700px) {
+  /* 小さい画面の最小高さ（調整可能） */
+  .study-stage {
+    min-height: calc(100dvh - 140px);
+  }
 }

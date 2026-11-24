@@ -1,5 +1,8 @@
+// スタイル読み込み
 import "./BottomNav.css";
 
+// 下部メニュー項目
+// 項目の追加・並び替え・表示名はこの配列を編集
 const menuItems = [
   { id: "home", label: "ホーム" },
   { id: "records", label: "学習記録" },
@@ -9,6 +12,7 @@ const menuItems = [
 ];
 
 function NavIcon({ name }) {
+  // 下部メニューアイコンの共通設定
   const common = {
     fill: "none",
     stroke: "currentColor",
@@ -68,6 +72,7 @@ function NavIcon({ name }) {
 
 function BottomNav({ activePage = "home", onNavigate }) {
   return (
+    // 下部ナビゲーション
     <nav className="bottom-nav" aria-label="下部メニュー">
       <div className="bottom-nav-inner">
         {menuItems.map((item) => (

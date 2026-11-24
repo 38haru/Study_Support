@@ -1,15 +1,11 @@
+// スタイルと教科データの読み込み
 import "./Header.css";
+import { subjects } from "../data/subjects";
 
-const subjects = [
-  { name: "英語", color: "#f04b3f" },
-  { name: "数学", color: "#1685e8" },
-  { name: "理科", color: "#16a34a" },
-  { name: "社会", color: "#f59e0b" },
-  { name: "国語", color: "#e548b7" },
-];
-
+// アイコンコンポーネント
 function AccountIcon() {
   return (
+    // アイコンサイズ（調整可能）
     <svg
       viewBox="0 0 48 48"
       width="30"
@@ -26,12 +22,15 @@ function AccountIcon() {
 }
 
 function Header({ activeTab = "学習状況", onTabChange }) {
+  // タブ押下時に親コンポーネントへ通知
   const handleTabClick = (tab) => {
     onTabChange?.(tab);
   };
 
   return (
+    // ヘッダー全体
     <header className="site-header">
+      {/* 上段：ロゴ、検索、アカウント */}
       <div className="site-header-top">
         <a className="site-logo" href="/" aria-label="ホーム">
           <span className="site-logo-sub">SELF STUDY</span>
@@ -79,6 +78,7 @@ function Header({ activeTab = "学習状況", onTabChange }) {
         </div>
       </div>
 
+      {/* 下段：メインナビゲーション */}
       <nav className="site-header-nav" aria-label="メインメニュー">
         <button
           type="button"

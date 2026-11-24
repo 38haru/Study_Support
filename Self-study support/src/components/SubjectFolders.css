@@ -1,0 +1,286 @@
+.subject-folder-dock {
+  /* フォルダー全体の調整用変数 */
+  /* タブ幅・重なり幅・右余白・スライド時間（調整可能） */
+  --folder-width: 52px;
+  --stack-width: 160px;
+  --folder-right-gap: 32px;
+  --tab-slide-duration: 600ms;
+
+  position: absolute;
+  inset: 0 auto 72px 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* 教科フォルダーの束：タブ位置と表示幅を切り替え */
+.subject-folder-bundle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--folder-left);
+  z-index: var(--leading-layer);
+  width: var(--folder-width);
+  pointer-events: none;
+  will-change: left, width;
+  transition:
+    left var(--tab-slide-duration) cubic-bezier(0.22, 0.8, 0.25, 1),
+    width var(--tab-slide-duration) cubic-bezier(0.22, 0.8, 0.25, 1);
+}
+
+.subject-folder-bundle.is-trailing {
+  left: calc(
+    100% - var(--folder-right-gap) - var(--folder-width) -
+      var(--folder-right-target)
+  );
+  z-index: var(--trailing-layer);
+}
+
+.subject-folder-bundle.is-active {
+  z-index: 2;
+  width: calc(
+    100% - var(--folder-left) - var(--folder-right-gap) -
+      var(--folder-right-target)
+  );
+}
+
+.subject-folder-bundle.is-leaving {
+  z-index: 1;
+}
+
+/* 切り替え中に退場する教科シート */
+.subject-folder-leaving-sheet {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  right: var(--folder-right-gap);
+  pointer-events: none;
+
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.11), transparent 8%, transparent 92%, rgba(0, 0, 0, 0.13)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0 1px, transparent 1px 5px),
+    var(--folder-color);
+}
+
+/* 選択中教科を閉じる右端の操作領域（調整可能） */
+.subject-folder-home-gap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  width: var(--folder-right-gap);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.subject-folder-home-gap:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: -5px;
+}
+
+/* 教科シート本体：背景色や模様を調整できる部分 */
+.subject-folder-sheet {
+  position: absolute;
+  top: 0;
+  right: calc(var(--folder-width) - 2px);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.11), transparent 8%, transparent 92%, rgba(0, 0, 0, 0.13)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0 1px, transparent 1px 5px),
+    var(--folder-color);
+  pointer-events: none;
+}
+
+.subject-folder-sheet::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  content: "";
+  border-right: 2px dashed rgba(255, 255, 255, 0.34);
+}
+
+/* 教科タブ本体：幅、色、影、ボーダーを調整できる部分 */
+.subject-folder {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  z-index: 2;
+  box-sizing: border-box;
+  width: var(--folder-width);
+  padding: 0;
+  overflow: visible;
+
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.34);
+  border-left: 2px solid rgba(0, 0, 0, 0.12);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.18), transparent 20%, transparent 80%, rgba(0, 0, 0, 0.16)),
+    var(--folder-color);
+  box-shadow: 5px 0 10px rgba(56, 43, 24, 0.15);
+  color: #ffffff;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: filter 180ms ease;
+}
+
+.subject-folder::before {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  bottom: 10px;
+  left: 9px;
+  content: "";
+  border-right: 2px dashed rgba(255, 255, 255, 0.38);
+  border-left: 2px dashed rgba(66, 45, 32, 0.18);
+  pointer-events: none;
+}
+
+.subject-folder::after {
+  position: absolute;
+  top: var(--label-position);
+  left: 0;
+  width: calc(var(--folder-width) + 20px);
+  height: clamp(90px, 17vh, 128px);
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-left: none;
+  border-radius: 0 28px 28px 0;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.2), transparent 28%),
+    var(--folder-color);
+  box-shadow:
+    inset -3px 0 rgba(255, 255, 255, 0.16),
+    4px 4px 8px rgba(58, 43, 25, 0.16);
+  pointer-events: none;
+}
+
+/* 教科名ラベル：文字サイズと配置を調整できる部分 */
+.subject-folder-label {
+  position: absolute;
+  top: calc(var(--label-position) + clamp(15px, 3vh, 24px));
+  right: -11px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--folder-width) + 9px);
+  height: clamp(64px, 12vh, 94px);
+
+  color: rgba(37, 49, 48, 0.88);
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: clamp(15px, 1.6vw, 20px);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.28);
+  writing-mode: vertical-rl;
+}
+
+.subject-folder-bundle.is-trailing .subject-folder,
+.subject-folder-bundle.is-active .subject-folder {
+  border-right: 2px solid rgba(0, 0, 0, 0.12);
+  border-left: 1px solid rgba(255, 255, 255, 0.34);
+  background:
+    linear-gradient(270deg, rgba(255, 255, 255, 0.18), transparent 20%, transparent 80%, rgba(0, 0, 0, 0.16)),
+    var(--folder-color);
+  box-shadow: -5px 0 10px rgba(56, 43, 24, 0.15);
+  filter: brightness(1.06) saturate(1.05);
+}
+
+.subject-folder-bundle.is-trailing .subject-folder::after,
+.subject-folder-bundle.is-active .subject-folder::after {
+  right: 0;
+  left: auto;
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 28px 0 0 28px;
+  background:
+    linear-gradient(270deg, rgba(255, 255, 255, 0.2), transparent 28%),
+    var(--folder-color);
+  box-shadow:
+    inset 3px 0 rgba(255, 255, 255, 0.16),
+    -4px 4px 8px rgba(58, 43, 25, 0.16);
+}
+
+.subject-folder-bundle.is-trailing .subject-folder-label,
+.subject-folder-bundle.is-active .subject-folder-label {
+  right: auto;
+  left: -11px;
+}
+
+.subject-folder:hover {
+  filter: brightness(1.06) saturate(1.05);
+}
+
+.subject-folder:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: -5px;
+}
+
+/* 小さい画面向けの調整 */
+@media (max-width: 700px) {
+  .subject-folder-dock {
+    --folder-width: 42px;
+    --stack-width: 110px;
+    --folder-right-gap: 24px;
+    bottom: 64px;
+  }
+
+  .subject-folder-bundle {
+    left: var(--folder-left-mobile);
+  }
+
+  .subject-folder-bundle.is-trailing {
+    left: calc(
+      100% - var(--folder-right-gap) - var(--folder-width) -
+        var(--folder-right-target-mobile)
+    );
+  }
+
+  .subject-folder-bundle.is-active {
+    width: calc(
+      100% - var(--folder-left-mobile) - var(--folder-right-gap) -
+        var(--folder-right-target-mobile)
+    );
+  }
+
+  .subject-folder::after {
+    width: calc(var(--folder-width) + 15px);
+    border-radius: 0 22px 22px 0;
+  }
+
+  .subject-folder-label {
+    right: -8px;
+    width: calc(var(--folder-width) + 6px);
+    font-size: 14px;
+  }
+
+  .subject-folder-bundle.is-trailing .subject-folder-label,
+  .subject-folder-bundle.is-active .subject-folder-label {
+    right: auto;
+    left: -8px;
+  }
+
+  .subject-folder-bundle.is-trailing .subject-folder::after,
+  .subject-folder-bundle.is-active .subject-folder::after {
+    border-radius: 22px 0 0 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subject-folder-bundle,
+  .subject-folder {
+    transition-duration: 1ms;
+  }
+}
