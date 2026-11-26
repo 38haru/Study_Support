@@ -9,7 +9,7 @@ body,
 body {
   min-height: 100vh;
   /* ページ背景色（調整可能） */
-  background-color: #c7e5e7;
+  background-color: #D9AA82;
 }
 
 #root {
@@ -22,11 +22,11 @@ body {
   /* ヘッダー分を除いた最小高さ（調整可能） */
   min-height: calc(100dvh - 92px);
   overflow: hidden;
-  /* 背景のドットとグラデーション（調整可能） */
+  /* 小学校の机の天板を思わせる木目調の背景 */
   background:
-    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.52) 0 2px, transparent 2.5px),
-    linear-gradient(135deg, #d9f0f0, #b9dde1);
-  background-size: 28px 28px, auto;
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12), transparent 18%, transparent 82%, rgba(124, 94, 52, 0.08)),
+    repeating-linear-gradient(0deg, rgba(112, 82, 42, 0.025) 0 1px, transparent 1px 7px),
+    linear-gradient(135deg, #D9AA82, #D9AA82);
 }
 
 @media (max-width: 700px) {
