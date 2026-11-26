@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="J7mA_7_qFkK3A9PS9lpF" name="ページ-1">
-        <mxGraphModel dx="2559" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+        <mxGraphModel dx="2033" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -169,7 +169,7 @@
                 <mxCell id="HO8h_rhg2D4HW0FoafM_-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="リマインド通知を設定して学習のきっかけを作る" vertex="1">
                     <mxGeometry height="60" width="120" x="360" y="880" as="geometry"/>
                 </mxCell>
-                <mxCell id="HO8h_rhg2D4HW0FoafM_-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="5教科（国/数/英/理/社）のボタンから教科を選択する" vertex="1">
+                <mxCell id="HO8h_rhg2D4HW0FoafM_-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#65FF18;strokeColor=#d6b656;" value="5教科（国/数/英/理/社）のボタンから教科を選択する" vertex="1">
                     <mxGeometry height="60" width="120" x="520" y="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="HO8h_rhg2D4HW0FoafM_-105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="教科ごとの最終学習日や達成度（％）をアイコン横に表示する" vertex="1">

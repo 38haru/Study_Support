@@ -1,0 +1,148 @@
+/* ホームの空の枠。教科フォルダーの右側に配置する。 */
+.home-dashboard {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(190px, 1fr);
+  gap: 24px;
+  width: 100%;
+  max-width: 1600px;
+  min-height: calc(100dvh - 92px);
+  margin: 0 auto;
+  padding: 44px 36px 108px 300px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.home-dashboard-main {
+  display: grid;
+  grid-template-rows: minmax(145px, 1fr) minmax(300px, 2.5fr);
+  gap: 24px;
+  min-width: 0;
+}
+
+.dashboard-panel {
+  box-sizing: border-box;
+  min-width: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(80, 55, 35, 0.08);
+}
+
+.dashboard-panel h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.dashboard-planning {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 20px 0;
+  border-color: #d8d8d8;
+  border-radius: 0;
+  background: #ffffff;
+  color: #414141;
+}
+
+.dashboard-planning-item {
+  padding: 0 20px;
+}
+
+.dashboard-timer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.dashboard-planning-item + .dashboard-planning-item {
+  border-left: 1px solid #e5e5e5;
+}
+
+.dashboard-records {
+  padding: 20px;
+  border-color: #bddbc6;
+  background: #eef8f0;
+  color: #4c805c;
+}
+
+.dashboard-recommendations {
+  padding: 20px 20px 20px 30px;
+  border-color: #d9cbb2;
+  border-radius: 2px;
+  background-color: #fffdf5;
+  background-image:
+    linear-gradient(90deg, transparent 19px, rgba(198, 116, 105, 0.32) 19px, rgba(198, 116, 105, 0.32) 20px, transparent 20px),
+    repeating-linear-gradient(0deg, transparent 0 39px, rgba(112, 151, 166, 0.22) 39px 40px),
+    repeating-linear-gradient(90deg, transparent 0 39px, rgba(112, 151, 166, 0.1) 39px 40px);
+  box-shadow: 3px 4px 0 #e6dac4, 0 7px 15px rgba(80, 55, 35, 0.1);
+  color: #645143;
+}
+
+.dashboard-recommendations h2 {
+  display: inline-block;
+  padding: 2px 5px;
+  background: #fffdf5;
+  font-family: "Yu Kyokasho", "Hiragino Maru Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .home-dashboard {
+    grid-template-columns: 1fr;
+    padding-right: 24px;
+  }
+
+  .dashboard-recommendations {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-dashboard {
+    min-height: calc(100dvh - 140px);
+    gap: 16px;
+    padding: 24px 16px 88px 235px;
+  }
+
+  .home-dashboard-main {
+    grid-template-rows: auto minmax(240px, 1fr);
+    gap: 16px;
+  }
+
+  .dashboard-planning {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+
+  .dashboard-planning-item {
+    min-height: 76px;
+    padding: 16px 0;
+    box-sizing: border-box;
+  }
+
+  .dashboard-timer-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.dashboard-planning-item + .dashboard-planning-item {
+    border-top: 1px solid #e5e5e5;
+    border-left: 0;
+  }
+
+  .dashboard-panel h2 {
+    font-size: 14px;
+  }
+
+  .dashboard-records {
+    padding: 16px;
+  }
+
+  .dashboard-recommendations {
+    padding: 16px 12px 16px 25px;
+  }
+}
+
+

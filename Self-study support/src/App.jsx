@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Header from "./components/Header";
 import BottomNav from "./components/BottomNav";
 import SubjectFolders from "./components/SubjectFolders";
+import HomeDashboard from "./components/HomeDashboard";
+import TimerSettings from "./components/TimerSettings";
 import { subjects } from "./data/subjects";
 import "./App.css";
 
@@ -17,10 +19,21 @@ function App() {
   const [activeTab, setActiveTab] = useState("学習状況");
   // 選択中の下部ナビゲーション
   const [activePage, setActivePage] = useState("home");
+  // 教科フォルダーの表示後にホームのカードを切り替える
+  const [showHomeDashboard, setShowHomeDashboard] = useState(true);
+  // タイマー設定ウィンドウとタイマー状態
+  const [timerSettingsOpen, setTimerSettingsOpen] = useState(false);
+  const [timerMode, setTimerMode] = useState("clock");
+  const [timerDuration, setTimerDuration] = useState(25 * 60);
+  const [timerElapsed, setTimerElapsed] = useState(0);
+  const [timerRemaining, setTimerRemaining] = useState(25 * 60);
+  const [timerRunning, setTimerRunning] = useState(false);
+  const [currentTime, setCurrentTime] = useState(() => new Date());
   // 切り替えアニメーション中に退場する教科
   const [leavingSubject, setLeavingSubject] = useState(null);
   // タイマー参照
   const leavingSubjectTimer = useRef(null);
+  const homeDashboardTimer = useRef(null);
   // 教科タブが選択されている場合のみ教科名を保持
   const activeSubject = subjects.some((subject) => subject.name === activeTab)
     ? activeTab
@@ -33,9 +46,34 @@ function App() {
       if (leavingSubjectTimer.current) {
         window.clearTimeout(leavingSubjectTimer.current);
       }
+      if (homeDashboardTimer.current) {
+        window.clearTimeout(homeDashboardTimer.current);
+      }
     },
     [],
   );
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setCurrentTime(new Date());
+
+      if (timerMode === "elapsed" && timerRunning) {
+        setTimerElapsed((value) => value + 1);
+      }
+
+      if (timerMode === "countdown" && timerRunning) {
+        setTimerRemaining((value) => {
+          if (value <= 1) {
+            setTimerRunning(false);
+            return 0;
+          }
+          return value - 1;
+        });
+      }
+    }, 1000);
+
+    return () => window.clearInterval(interval);
+  }, [timerMode, timerRunning]);
 
   // ユーティリティ関数
   // 教科切り替え状態とタイマーを解除
@@ -54,6 +92,29 @@ function App() {
     // 別の教科タブへ切り替えるか判定
     const isSwitchingSubjects =
       isSubject && activeSubject && activeSubject !== tab;
+    // 同じ教科を押してフォルダーを閉じるか判定
+    const isClosingSubject = isSubject && activeSubject === tab;
+    // 学習状況タブからフォルダーを開くか判定
+    const isOpeningSubject = isSubject && !activeSubject;
+
+    if (homeDashboardTimer.current) {
+      window.clearTimeout(homeDashboardTimer.current);
+      homeDashboardTimer.current = null;
+    }
+
+    if (isOpeningSubject) {
+      // フォルダーを出し切ってからホームのカードを消す
+      setShowHomeDashboard(true);
+      homeDashboardTimer.current = window.setTimeout(() => {
+        setShowHomeDashboard(false);
+        homeDashboardTimer.current = null;
+      }, subjectCardTransitionDuration);
+    } else if (isClosingSubject || tab === "学習状況") {
+      // フォルダーを閉じ始める前にホームのカードを表示する
+      setShowHomeDashboard(true);
+    } else if (isSwitchingSubjects) {
+      setShowHomeDashboard(false);
+    }
 
     if (isSwitchingSubjects) {
       // 切り替え前に残っているタイマーをクリア
@@ -73,12 +134,61 @@ function App() {
     }
 
     // 同じ教科をもう一度押した場合は「学習状況」に戻る
-    setActiveTab(isSubject && activeTab === tab ? "学習状況" : tab);
+    setActiveTab(isClosingSubject ? "学習状況" : tab);
 
-    if (isSubject) {
+    if (isSubject || tab === "学習状況") {
       setActivePage("home");
     }
   };
+
+  const returnHome = () => {
+    setTimerSettingsOpen(false);
+    setActivePage("home");
+    clearLeavingSubject();
+    setActiveTab("学習状況");
+    if (homeDashboardTimer.current) {
+      window.clearTimeout(homeDashboardTimer.current);
+      homeDashboardTimer.current = null;
+    }
+    setShowHomeDashboard(true);
+  };
+
+  const handleTimerModeChange = (mode) => {
+    setTimerRunning(false);
+    setTimerMode(mode);
+
+    if (mode === "elapsed") {
+      setTimerElapsed(0);
+    } else if (mode === "countdown") {
+      setTimerRemaining(timerDuration);
+    }
+  };
+
+  const handleTimerDurationChange = (duration) => {
+    setTimerDuration(duration);
+    setTimerRemaining(duration);
+  };
+
+  const handleTimerReset = () => {
+    setTimerRunning(false);
+    if (timerMode === "elapsed") {
+      setTimerElapsed(0);
+    } else if (timerMode === "countdown") {
+      setTimerRemaining(timerDuration);
+    }
+  };
+
+  const handleTimerToggle = () => {
+    if (timerMode === "countdown" && timerRemaining === 0) {
+      setTimerRemaining(timerDuration);
+    }
+    setTimerRunning((running) => !running);
+  };
+
+  const timerDisplaySeconds =
+    timerMode === "elapsed" ? timerElapsed :
+    timerMode === "countdown" ? timerRemaining :
+    0;
 
   // 画面構成
   return (
@@ -88,7 +198,14 @@ function App() {
         onTabChange={handleTabChange}
       />
 
-      <main className="study-stage" aria-label="教科学習">
+      <main className="study-stage" aria-label="学習画面">
+        {showHomeDashboard && (activePage === "home" || activePage === "timer") && (
+          <HomeDashboard
+            timerMode={timerMode}
+            timerSeconds={timerDisplaySeconds}
+            currentTime={currentTime}
+          />
+        )}
         <SubjectFolders
           activeSubject={activeSubject}
           leavingSubject={leavingSubject}
@@ -99,16 +216,42 @@ function App() {
       <BottomNav
         activePage={activePage}
         onNavigate={(page) => {
+          if (page === "home" || (page === "timer" && timerSettingsOpen)) {
+            returnHome();
+            return;
+          }
+
           setActivePage(page);
 
-          if (page === "home") {
-            clearLeavingSubject();
-            setActiveTab("学習状況");
+          if (activeSubject) {
+            setShowHomeDashboard(true);
+          }
+
+          if (page === "timer") {
+            setTimerSettingsOpen((open) => !open);
+          } else {
+            setTimerSettingsOpen(false);
           }
         }}
       />
+      {timerSettingsOpen && <TimerSettings
+        open={timerSettingsOpen}
+        mode={timerMode}
+        durationSeconds={timerDuration}
+        running={timerRunning}
+        onClose={returnHome}
+        onModeChange={handleTimerModeChange}
+        onDurationChange={handleTimerDurationChange}
+        onToggleRunning={handleTimerToggle}
+        onReset={handleTimerReset}
+      />}
     </>
   );
 }
 
 export default App;
+
+
+
+
+

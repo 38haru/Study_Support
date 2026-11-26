@@ -3,7 +3,7 @@ import "./SubjectFolders.css";
 
 // フォルダー位置とアニメーション設定
 // ラベルの縦方向位置（調整可能）
-const labelPositions = ["5%", "23%", "41%", "59%", "76%"];
+const labelPositions = ["2%", "20%", "38%", "56%", "73%"];
 // 教科タブの左右間隔（ピクセル）
 const desktopTabSpacing = 52;
 const mobileTabSpacing = 42;
